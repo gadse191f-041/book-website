@@ -1,0 +1,130 @@
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(141, 141, 141);
+        box-shadow: 15px 15px 20px  #c9c9c9;
+      }
+
+
+      .topnav a:hover {
+        background-color: rgb(112, 112, 112);
+        transition: linear 0.2s;
+    }
+    .threDim{
+        box-shadow: 15px 15px 20px  #c9c9c9;
+    }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: linear 0.2s;
+      }
+      
+
+      .topnav .icon {
+        display: none;
+      }
+
+    
+    .gobckshopping{
+        margin-right: 16%;
+    }
+
+
+
+
+@media only screen and (min-width: 600px) {
+ 
+    .topnav{
+        transform: translateY(-50px);
+        z-index: 1;
+    }
+
+    .main-container-profile{
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        width: 99.99%;
+        margin-top:70px;
+
+    }
+    
+
+    .card-body{
+        margin-right: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+}
+
+
+
+
+.inner-container{
+  min-height: 200px;
+  width: 99.99%;
+  margin-top: 0px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.inner-container2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-height: 200px;
+  width: 99.99%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .topnav{
+        margin-top: 10px;
+        z-index: 1;
+    }
+
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+
+    }
+
+    .inner-container{
+      min-height: 200px;
+      width: 99.99%;
+      margin-top: 20px;
+      text-align: center;
+      justify-content: center;
+      align-content: center;
+  }
+
+
+
+
+}

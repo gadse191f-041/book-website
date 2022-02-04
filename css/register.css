@@ -1,0 +1,127 @@
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-reg [type="submit"] {
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  transition: 0.3s;
+}
+
+.form-reg [type="submit"]:hover {
+  background-color: royalblue;
+}
+
+.form-reg [type="submit"]:disabled {
+  background-color: rgb(158, 158, 158);
+}
+
+.form-reg [type="reset"] {
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  transition: 0.3s;
+}
+
+form [type="reset"]:hover {
+  background-color: royalblue;
+}
+
+
+.main-container {
+  background-color: rgb(245, 245, 245);
+  padding: 20px 0 50px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 68%;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactbtn {
+  background-color: #27ca27;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.contactbtn:hover {
+  background-color: #1fa71f;
+}
+
+
+.contact-container{
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+}
+
+.subcontainer1 {
+  flex: .7;
+  border-right: 2px solid #000;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.subcontainer2 {
+  margin-left: 50px;
+}
+
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .subcontainer1 {
+    border-right: none;
+    margin-bottom: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .subcontainer2 {
+    margin-left: 0px;
+  }
+  
+}

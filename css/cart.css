@@ -1,0 +1,128 @@
+
+.cart-table{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 1px 10px 20px  #a1a1a1;
+}
+
+.product{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.thead{
+    background-color: #4f84ca;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.thead td{
+
+    font-weight: normal;
+}
+
+
+
+
+.cart-table td{
+    font-size: 20px;
+
+}
+
+.cart-table tr{
+    border-bottom: 20px solid #aaa;
+
+}
+
+.numberField{
+    width: 60%;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.row h5{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.row p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-del{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FF0000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-del:hover{
+    color: #af0303;
+}
+
+.table-bottom{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.bottom-left{
+    flex: 1;
+}
+
+
+.button-goback{
+    padding: 10px 8px;
+    border: none;
+    background-color: #aaa;
+    color: #000;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px  #575757;
+}
+
+.button-goback:hover{
+    background-color: rgb(136, 134, 134);
+    box-shadow: 10px 10px 15px  #575757;
+}
+
+
+
+.checkout{
+    flex: 1;
+    padding: 10px 50px;
+    border: none;
+    background-color: #3270c2;
+    color: #FFF;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px  #575757;
+}
+
+.checkout:hover{
+    background-color: #1d4d8b;
+    box-shadow: 10px 10px 15px  #575757;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+}

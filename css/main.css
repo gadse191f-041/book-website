@@ -1,0 +1,187 @@
+
+    *{
+        font-family: 'Baloo Tammudu 2', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        background-color: #ebebeb;
+    }
+
+    .themeColor{
+        background-color: #3270c2;
+        color: #FFF;
+    }
+
+
+    .header{
+        position: fixed;
+        top: 0;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .admin-nav {
+        overflow: hidden;
+        background-color: #3270c2;
+        box-shadow: 15px 15px 20px  #c9c9c9;
+      }
+
+
+      .admin-nav a:hover {
+        background-color: #1d4d8b;
+        transition: linear 0.2s;
+    }
+
+    .threeDim{
+        box-shadow: 15px 15px 20px  #c9c9c9;
+    }
+
+    .threeDimMax{
+        box-shadow: 10px 10px 25px 10px  #c9c9c9;
+    }
+
+      .admin-nav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: linear 0.2s;
+      }
+      
+
+      .admin-nav .icon {
+        display: none;
+      }
+
+
+    .login-form{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-form button{
+        margin-top: 20px;
+    }
+
+    .login-box{
+        background-color: rgb(245, 245, 245);
+        width: 60%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 50px;
+    }
+
+    .admin-footer{
+        overflow: hidden;
+        background-color: #3270c2;
+        box-shadow: 15px 15px 20px  #c9c9c9;
+        text-align: center;
+    }
+    
+    .admin-footer a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+        font-size: 17px;
+        transition: linear 0.2s;
+      }
+
+      .admin-footer a:hover {
+        background-color: #1d4d8b;
+        transition: linear 0.2s;
+    }
+
+    .lgnbtn{
+        padding: 10px 50px;
+        border: none;
+        background-color: #3270c2;
+        color: #FFF;
+        transition: 0.3s;
+    }
+
+    .lgnbtn:hover{
+        background-color: #1d4d8b;
+    }
+
+
+@media only screen and (min-width: 600px) {
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+
+    .admin-nav{
+        margin-top: 0px;
+    }
+
+    .admin-nav a:not(:first-child) {display: none;}
+    .admin-nav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .admin-nav.responsive {position: relative;}
+    .admin-nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .admin-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+
+    }
+
+    
+    .login-form{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-form button{
+        margin-top: 20px;
+        
+    }
+
+   .login-box{
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 50px;
+   }
+
+
+
+}
+
+
+.inner-container{
+    min-height: 200px;
+    width: 99.99%;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}

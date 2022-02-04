@@ -1,0 +1,163 @@
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(141, 141, 141);
+        box-shadow: 15px 15px 20px  #c9c9c9;
+      }
+
+
+      .topnav a:hover {
+        background-color: rgb(112, 112, 112);
+        transition: linear 0.2s;
+    }
+
+    .threeDim{
+        box-shadow: 15px 15px 20px  #c9c9c9;
+    }
+
+    .threeDimMax{
+        box-shadow: 10px 10px 25px 10px  #c9c9c9;
+    }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: linear 0.2s;
+      }
+      
+
+      .topnav .icon {
+        display: none;
+      }
+
+    
+    .gobckshopping{
+        margin-right: 16%;
+    }
+
+    .settings-form{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+   .settings-box{
+    background-color: rgb(245, 245, 245);
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+   }
+
+   .button-submit{
+    padding: 10px 50px;
+    border: none;
+    background-color: #3270c2;
+    color: #FFF;
+    transition: 0.3s;
+   }
+
+   .button-submit:hover{
+    background-color: #1d4d8b;
+   }
+
+   .btndelete{
+     margin-left: 30px;
+     background-color: #9E0E0E;
+     transition: 0.3s;
+   }
+
+   .btndelete:hover{
+    background-color: #650E0E  ;
+  }
+
+
+@media only screen and (min-width: 600px) {
+  .topnav{
+    transform: translateY(-50px);
+    z-index: 1;
+}
+
+
+    .main-container-profile{
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        width: 99.99%;
+        margin-top:70px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .btndelete{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+
+  .topnav{
+    margin-top: 10px;
+    z-index: 1;
+}
+
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+
+    }
+
+    .settings-form{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  .settings-box{
+    background-color: rgb(245, 245, 245);
+    width: 85%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+  }
+
+}
+
+
+.inner-container{
+    min-height: 200px;
+    width: 99.99%;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}

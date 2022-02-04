@@ -1,0 +1,41 @@
+
+
+.inner-container{
+    display: flex;
+    min-height: 500px;
+    width: 95%;
+    justify-content: center;
+}
+
+.bookImgContainer{
+    flex: 1;
+}
+
+
+.bookDetailContainer{
+    flex: 2;
+    margin-right: 50px;
+}
+
+.details{
+    text-align: left;
+    width: 80%;
+    padding: 20px 0;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .inner-container{
+        display: block;
+    }
+
+    .bookDetailContainer{
+        width: 80%;
+        margin: auto;
+    }
+
+    .details{
+text-align: left;
+    }
+
+}
